@@ -1,0 +1,46 @@
+---
+title: Hi Hugo
+author: R package build
+date: '2023-08-27'
+slug: hi-hugo
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2023-08-27T12:42:30+01:00'
+featured: no
+image: 
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+# Introduction
+
+This is my first blog post using Hugo and blogdown! In this post, I wanted to share a cool image with you.
+
+![My First Image](image1.png)
+
+
+```{r}
+summary(Orange)
+```
+
+
+```{r echo=FALSE}
+library(ggplot2)
+oplot <- ggplot(Orange, aes(x = age, 
+                   y = circumference, 
+                   colour = Tree)) +
+  geom_point() +
+  geom_line() +
+  guides(colour = FALSE) +
+  theme_bw()
+oplot
+```
+
+# Conclusion
+
+That's all for now. Stay tuned for more exciting content!
